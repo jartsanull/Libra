@@ -1,4 +1,3 @@
-#import Libra
 import time
 
 book_list = ["Bible", "The Headless Horseman", "The Gospel Driven Life", "On the Incarnation"]
