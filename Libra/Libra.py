@@ -1,14 +1,12 @@
 import time
-import funcs
-
-book_list = ["Bible", "The Headless Horseman", "The Gospel Driven Life", "On the Incarnation"]
-global book_list
+import functions
 
 print("Hey!")
 time.sleep(1.5)
 
+def main():
+    functions.bot()
 
 
-
-
-funcs.bot()
+if __name__ == "__main__":
+    main()
