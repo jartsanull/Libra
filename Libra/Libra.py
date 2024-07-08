@@ -6,9 +6,9 @@ global book_list
 
 print("Hey!")
 time.sleep(1.5)
-print("How can I help you?")
 
 
 
 
-bot()
+
+funcs.bot()
