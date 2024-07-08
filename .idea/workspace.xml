@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36f98739-b7d2-4dba-86bc-f9dc2f99734c" name="Changes" comment="" />
+    <list default="true" id="6d1a8602-3995-4752-b07e-9735b7aacc78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libra/Libra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libra/Libra.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +13,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2ixhB5OSvvcT1AhwrGFfTNPx6IK" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ixhH9JlX2UH3bjqq1VC1JBMhuP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,11 +31,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36f98739-b7d2-4dba-86bc-f9dc2f99734c" name="Changes" comment="" />
-      <created>1720437998013</created>
+      <changelist id="6d1a8602-3995-4752-b07e-9735b7aacc78" name="Changes" comment="" />
+      <created>1720438044577</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1720437998013</updated>
+      <updated>1720438044577</updated>
     </task>
     <servers />
   </component>
