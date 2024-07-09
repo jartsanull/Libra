@@ -12,7 +12,8 @@ def service(choice: str):
         case "inquire":
             print() #there should another match syntax soon
 
-        case ""
+        case _:
+            print("please try again")
 
 def bot():
     choice = input("How can I help you? ")
