@@ -9,6 +9,11 @@ def service(choice: str):
             print()
             print("\n".join(book_list))
 
+        case "inquire":
+            print() #there should another match syntax soon
+
+        case ""
+
 def bot():
     choice = input("How can I help you? ")
     service(choice)
