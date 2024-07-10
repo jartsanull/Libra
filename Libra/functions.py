@@ -12,6 +12,9 @@ def service(choice: str):
         case "inquire":
             print() #there should another match syntax soon
 
+        case "assistance", "assist":
+            print("Sure, how can I assist you?")
+
         case _:
             print("please try again")
 
