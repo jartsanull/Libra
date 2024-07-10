@@ -1,6 +1,7 @@
 import time
 
 book_list = ["Bible", "The Headless Horseman", "The Gospel Driven Life", "On the Incarnation"]
+feast: str
 
 def service(choice: str):
     match (choice):
@@ -14,6 +15,10 @@ def service(choice: str):
 
         case "assistance", "assist":
             print("Sure, how can I assist you?")
+
+        case "event":
+            print(f"It's ${feast}! This is what we have: ")
+            #more coming soon
 
         case _:
             print("please try again")
