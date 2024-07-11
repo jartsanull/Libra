@@ -4,6 +4,7 @@ import datetime
 book_list = ["Bible", "The Headless Horseman", "The Gospel Driven Life", "On the Incarnation"]
 feast: str
 now = datetime.datetime.now()
+
 def service(choice: str):
     match (choice):
         case "recommendations":
@@ -14,7 +15,7 @@ def service(choice: str):
         case "inquire":
             print() #there should another match syntax soon
 
-        case "assistance", "assist":
+        case "assistance" | "assist":
             print("Sure, how can I assist you?")
 
         case "event":
