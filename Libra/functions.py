@@ -17,7 +17,7 @@ def service(choice: str):
             print("Sure, how can I assist you?")
 
         case "event":
-            print(f"It's ${feast}! This is what we have: ")
+            print(f"It's ${feast} today! This is what we have: ")
             #more coming soon
 
         case _:
