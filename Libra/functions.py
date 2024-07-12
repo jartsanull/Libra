@@ -2,7 +2,7 @@ import time
 import datetime
 
 book_list = ["Bible", "The Headless Horseman", "The Gospel Driven Life", "On the Incarnation"]
-feast: str
+feast = ["Easter", "Christmas", "New Year", "Women's Day", "Men's Day"]
 now = datetime.datetime.now()
 
 def services(choice: str):
