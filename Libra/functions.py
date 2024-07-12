@@ -27,4 +27,4 @@ def services(choice: str):
 
 def bot():
     choice = input("How can I help you? ")
-    service(choice)
+    services(choice)
