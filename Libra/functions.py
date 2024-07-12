@@ -5,7 +5,7 @@ book_list = ["Bible", "The Headless Horseman", "The Gospel Driven Life", "On the
 feast: str
 now = datetime.datetime.now()
 
-def service(choice: str):
+def services(choice: str):
     match (choice):
         case "recommendations":
             print("Oh, I can recommend you these books:")
