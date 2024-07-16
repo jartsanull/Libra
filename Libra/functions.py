@@ -6,6 +6,8 @@ feast = ["Easter", "Christmas", "New Year", "Women's Day", "Men's Day"]
 feast_now: str
 now = datetime.datetime.now()
 
+
+
 def services(choice: str):
     match (choice):
         case "recommendations":
