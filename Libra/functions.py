@@ -16,7 +16,9 @@ def services(choice: str):
             print("\n".join(book_list))
 
         case "inquire":
-            print() #there should another match syntax soon
+            print("Hmmm... Let me see if we have it\n") #there should another match syntax soon
+            time.sleep(1500)
+            print("Please wait...")
 
         case "assistance" | "assist":
             print("Sure, how can I assist you?")
