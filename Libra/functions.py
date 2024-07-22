@@ -26,10 +26,10 @@ def services(choice: str):
             #more coming soon
 
         case _:
-            print("please try again")
+            print("Excuse me?")
 
 def bot():
     choice = input("How can I help you? ")
     services(choice)
 
-#print(now) # <- nvm, just testing :)
+#print(now) # <- nvm that, just testing :)
