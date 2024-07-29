@@ -9,7 +9,7 @@ now = date.today()
 
 def services(choice: str):
     match (choice):
-        case "recommendations" if "recommendations" in choice:
+        case "recommendations":
             print("Oh, I can recommend you these books:")
             print()
             print("\n".join(book_list))
