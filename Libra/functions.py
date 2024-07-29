@@ -9,12 +9,12 @@ now = date.today()
 
 def services(choice: str):
     match (choice):
-        case "recommendations"  if "recommendations" in choice:
+        case "recommendations" if "recommendations" in choice:
             print("Oh, I can recommend you these books:")
             print()
             print("\n".join(book_list))
 
-        case "inquire" if "inquire" | "inquiry" in choice:
+        case "inquire" | "inquiry":
             print("Hmmm... Let me see if we have it\n") #not done yet
             time.sleep(1500)
             print("Please wait...")
