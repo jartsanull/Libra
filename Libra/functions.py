@@ -16,10 +16,10 @@ def services(choice: str):
 
         case "inquire" | "inquiry" if "inquire" in choice or "inquiry" in choice:
             print("Hmmm... Let me see if we have it\n") #not done yet
-            time.sleep(1500)
+            time.sleep(5)
             print("Please wait...")
 
-        case  if "assistance" in choice or "assistance" in choice:
+        case "assistance" | " if "assistance" in choice or "assist" in choice:
             print("Sure, how can I assist you?")
 
         case "event":
