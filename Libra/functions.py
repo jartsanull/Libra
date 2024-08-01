@@ -27,7 +27,7 @@ def services(choice: str):
             #more coming soon
 
         case _:
-            print("Excuse me?")
+            print("Excuse me? ")
 
 def bot():
     choice = input("How can I help you? ")
