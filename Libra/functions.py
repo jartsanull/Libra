@@ -31,6 +31,7 @@ def services(choice: str):
 
 def bot():
     choice = input("How can I help you? ")
+    print()
     services(choice)
 
 #print(now) # <- nvm that, just testing :)
