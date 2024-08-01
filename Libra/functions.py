@@ -14,7 +14,7 @@ def services(choice: str):
             print()
             print("\n".join(book_list))
 
-        case "inquire" | "inquiry":
+        case 2 if "inquire" in choice | "inquiry" in choice:
             print("Hmmm... Let me see if we have it\n") #not done yet
             time.sleep(1500)
             print("Please wait...")
