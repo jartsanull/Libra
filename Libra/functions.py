@@ -2,6 +2,8 @@ import time
 import datetime
 from datetime import date
 
+with open("data.json", "r") as file:
+    
 
 feast_now: str
 now = date.today()
