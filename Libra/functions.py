@@ -2,8 +2,7 @@ import time
 import datetime
 from datetime import date
 
-book_list = ["Clean Code", "Bible", "The Headless Horseman", "On the Incarnation"]  #<--- temporary storage
-feast = ["Easter", "Christmas", "New Year", "Women's Day", "Men's Day"]
+
 feast_now: str
 now = date.today()
 
