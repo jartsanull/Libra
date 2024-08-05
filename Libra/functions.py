@@ -7,6 +7,7 @@ with open("data.json", "r") as file:
     data = json.load(file)
 
 book_list = data["book_list"]
+feast = data["feast"]
 feast_now: str
 now = date.today()
 
