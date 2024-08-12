@@ -9,6 +9,7 @@ with open("data.json", "r") as file:
 book_list = data["book_list"] 
 feast = data["feast"]
 feast_now: str
+elabs = data["elaborations"]
 now = date.today()
 
 def services(choice: str):
