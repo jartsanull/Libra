@@ -26,7 +26,7 @@ def services(choice: str):
             print("Please wait...")
 
         case "assistance" | "assist" if "assistance" in choice or "assist" in choice:
-            print("Sure, how can I assist you?")
+            print("Sure, how can I assist you?")  #this is not the assistance you imagine
 
         case "event":
             print(f"It's ${feast_now} today! This is what we have: ")
