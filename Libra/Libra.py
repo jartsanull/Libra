@@ -4,7 +4,7 @@ import functions
 print("Hey!")
 time.sleep(1.5)
 
-def main():    #not on loop for good reason
+def main():    #not YET on loop for testing reasons
     functions.bot()
 
 
