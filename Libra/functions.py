@@ -31,7 +31,7 @@ def services(choice: str):
             #more coming soon
 
         case _:
-            print(
+            print()
 
 def bot():
     choice = input("How can I help you? ")
