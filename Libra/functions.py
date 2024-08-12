@@ -36,7 +36,7 @@ def services(choice: str):
             print(random.choice(elabs))
 
 def bot():
-    choice = input("How can I help you? ")
+    choice = input("How can I help you?\n")
     print()
     services(choice)
 
