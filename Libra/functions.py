@@ -32,6 +32,9 @@ def services(choice: str):
             print(f"It's ${feast_now} today! This is what we have: ")
             #more coming soon
 
+        case "exit":
+            exit()
+
         case _:
             print(random.choice(elabs))
 
