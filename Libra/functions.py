@@ -29,7 +29,7 @@ def services(choice: str):
             print("Sure, how can I assist you?")  #this is not the assistance you imagine
 
         case "event":
-            print(f"It's ${feast_now} today! This is what we have: ")
+            print(f"It's ${feast_now} today! This is what we have thematically: ")
             #more coming soon
 
         case "exit":
