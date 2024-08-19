@@ -30,7 +30,7 @@ def services(choice: str):
 
         case "event":
             print(f"It's ${feast_now} today! This is what we have thematically: ")
-            match (feast_now):
+            match (feast_now):        #still unfinished
                 case "New Year":
                     print()
                 case "Easter":
@@ -43,7 +43,6 @@ def services(choice: str):
                     print()
                 case "Christmas":
                     print()
-
 
         case "exit":
             exit()
