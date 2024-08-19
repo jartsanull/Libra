@@ -31,7 +31,17 @@ def services(choice: str):
         case "event":
             print(f"It's ${feast_now} today! This is what we have thematically: ")
             match (feast_now):
+                case "New Year":
+                    print()
                 case "Easter":
+                    print()
+                case "1st May" | "First May" if "1st May" in feast_now or "First May" in feast_now:
+                    print()
+                case "Mother's Day":
+                    print()
+                case "Father's Day":
+                    print()
+                case "Christmas":
                     print()
 
 
