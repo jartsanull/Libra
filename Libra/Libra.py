@@ -1,6 +1,9 @@
 import time
 import functions
 
+'''Päätiedosto joka toimii koko tekoälyn sydämenä'''
+
+
 print("Hey!")
 time.sleep(1.5)
 
