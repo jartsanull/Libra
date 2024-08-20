@@ -4,13 +4,18 @@ import time
 import datetime
 from datetime import date
 
+
+
+'''Tämä tiedosto sisältää botin toimintoja päätiedostolle''' 
+
+#Jotta kirjoja ja päivämääriä voitaisiin näyttää, ne pitää tuoda tänne toisesta tiedostosta
 with open("data.json", "r") as file:
     data = json.load(file)
 
 book_list = data["book_list"] 
 feast = data["feast"]
 feast_now: str
-elabs = data["elaborations"]
+elaborations = data["elaborations"]
 now = date.today()
 
 def services(choice: str):
@@ -48,7 +53,7 @@ def services(choice: str):
             exit()
 
         case _:
-            print(random.choice(elabs))
+            print(random.choice(elaborations))
 
 def bot():
     choice = input("How can I help you?\n")
