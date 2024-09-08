@@ -1,5 +1,6 @@
 
-/* i created them as example */
+    "_comment": "I created the data as example"
+
 {
     "book_list": ["Clean Code", "Bible", "The Headless Horseman", "On the Incarnation"],
     "feast": ["Easter", "Christmas", "New Year", "Women's Day", "Men's Day"],
